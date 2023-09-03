@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.main{
+    min-height: 70vh;
+    background-color: rgb(247, 216, 234);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+
+.header{
+    background-color: rgb(247, 216, 234);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+.logo{
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.links a{
+    
+    font-size: 25px;
+    color: black;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 15px;
+}
+:hover > #section5{
+    border: 1px solid black;
+    padding: 3px 6px 3px 6px;
+    border-radius: 5px;
+    background-color: rgb(236, 114, 15);
+    color: white;
+
+}
+
+.logo t{
+    color: rgb(250, 176, 65);
+}
+.content{
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    margin-top: 77px;
+    height: 500px;
+    width: 100%;
+    justify-content: right;
+    
+}
+.content b{
+    margin-left: 30px;
+    margin-top: 70px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+.content t
+{
+    font size: 10px;
+
+}
+button{
+    border: 1px solid pink;
+    background-color:rgb(241, 158, 214);
+    padding: 8px 5px 8px 5px;
+    border-radius: 5px;   
+    color: white;
+}
+.content a{
+    background-color: white;
+    color: black;
+    padding: 8px 5px 8px 5px;
+    border-radius: 5px; 
+    font-size: 14px;
+    justify-content: space-between;
+    text-decoration: none;
+}
+h6{
+    font-size: 14px;
+    color: gray
+}
+#img1{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+#img2{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+#img3{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+#img4{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+#img5{
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    border: 1px solid white;
+}
+.content d{
+    color: black;
+    font-size:16px;
+    justify-content: space-between;
+    text-align: bottom;
+    text-decoration: none;
+    color: rgb(243, 151, 13);
+  
+}
+.content e{
+    color: black;
+    font-size:12px;
+    justify-content: space-between;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 100px;
+    z-index: 10;
+    position: relative;
+}
+.img2{
+    width: 200px;
+    height: 200px;
+    top: 300px;
+    right: 150px;
+    position: absolute;
+    z-index: 15;
+    }
+.img3{
+    width: 300px;
+    height: 200px;
+    
+    position: static;
+    top: 40px;
+    margin-left: 30px;
+    z-index: 30;
+}
+.morelogo{
+    width: 100%;
+    
+    font-size: 14px;
+
+    justify-content: center;
+    text-align: center;
+    word-spacing: 5px;
+    color: gray;
+    margin-top: 10px;
+    
+    
+}
+#logo1{
+    width: 200px;
+    height: 20px;
+    color: gray;
+  
+}
+#logo2{
+    width: 200px;
+    height: 20px;
+    
+}
+#logo3{
+    width: 200px;
+    height: 20px;
+   
+}
+#logo4{
+    width: 200px;
+    height: 20px;
+    
+}
+#logo5{
+    width: 200px;
+    height: 20px;
+   
+}
+.mobileicon{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 600px 400px 400px;
+}
+.mobileicon > a{
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: 700;
+    margin-top: 150px;
+}
+.mobileicon b{
+    color: gray;
+   height: 500px;
+   width: 300px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.mobile1{
+    height: 400px;
+    width: 200px;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.mobile2{
+    height: 400px;
+    width: 200px;
+    margin-left: 150px;
+}
+.mobileicon1 > a{
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: 700;
+  
+   justify-content: center;
+   align-items: center;
+}
+.mobileicon1 b{
+    color: gray;
+   height: 500px;
+   width: 300px;
+    font-size: 12px;
+    font-weight: 700;
+   
+}
+.mobileicon2 > a{
+    font-size: 20px;
+    margin-left: 100px;
+    font-weight: 700;
+  margin-top: 100px;
+   justify-content: center;
+   align-items: center;
+}
+.mobileicon2 b{
+    color: gray;
+   height: 500px;
+   width: 300px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-left: 200px;
+    justify-content: center;
+    text-align: center;
+}
+.mobile3{
+    height: 400px;
+    width: 200px;
+    margin-left: 150px;
+}
+
